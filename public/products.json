@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "product_images": [
+      "https://www.startech.com.bd/image/cache/catalog/headphone/hoco/w35/w35-01-500x500.jpg",
+      "https://www.startech.com.bd/image/cache/catalog/headphone/hoco/w35/w35-02-500x500.jpg",
+      "https://www.startech.com.bd/image/cache/catalog/headphone/hoco/w35/w35-03-500x500.jpg",
+      "https://www.startech.com.bd/image/cache/catalog/headphone/hoco/w35/w35-05-500x500.jpeg"
+    ],
+    "product_name": "Wireless Bluetooth Headphones",
+    "product_description": "High-quality wireless headphones with noise cancellation and long battery life.",
+    "product_oldPrice": 100.0,
+    "product_newPrice": 75.0,
+    "discount_percentage": 25,
+    "sold": 1200
+  },
+  {
+    "id": 2,
+    "product_images": [
+      "https://www.startech.com.bd/image/cache/catalog/smart-watch/black-shark/gs3-sport/gs3-sport-lava-black-01-500x500.webp",
+      "https://www.startech.com.bd/image/cache/catalog/smart-watch/black-shark/gs3-sport/gs3-sport-lava-black-02-500x500.webp",
+      "https://www.startech.com.bd/image/cache/catalog/smart-watch/black-shark/gs3-sport/gs3-sport-mist-black-01-500x500.webp",
+      "https://www.startech.com.bd/image/cache/catalog/smart-watch/black-shark/gs3-sport/gs3-sport-mist-black-02-500x500.webp"
+    ],
+    "product_name": "Smart Fitness Watch",
+    "product_description": "Track your health and fitness with this stylish smartwatch with multiple sports modes.",
+    "product_oldPrice": 150.0,
+    "product_newPrice": 99.99,
+    "discount_percentage": 33,
+    "sold": 850
+  },
+  {
+    "id": 3,
+    "product_images": [
+      "https://www.startech.com.bd/image/cache/catalog/television/sony/bravia-kd-75x77l/kd-75x77l-01-500x500.webp",
+      "https://www.startech.com.bd/image/cache/catalog/television/sony/bravia-kd-75x77l/kd-75x77l-02-500x500.webp",
+      "https://www.startech.com.bd/image/cache/catalog/television/sony/bravia-kd-75x77l/bravia-kd-75x77l-04-500x500.webp",
+      "https://www.startech.com.bd/image/cache/catalog/television/sony/bravia-kd-75x77l/bravia-kd-75x77l-05-500x500.webp"
+    ],
+    "product_name": "4K Ultra HD Smart TV",
+    "product_description": "Enjoy breathtaking picture quality and smart features with this 55-inch 4K TV.",
+    "product_oldPrice": 800.0,
+    "product_newPrice": 599.99,
+    "discount_percentage": 25,
+    "sold": 500
+  },
+  {
+    "id": 4,
+    "product_images": [
+      "https://www.startech.com.bd/image/cache/catalog/keyboard/logitech/g813/g813-01-500x500.webp",
+      "https://www.startech.com.bd/image/cache/catalog/keyboard/logitech/g813/g813-03-500x500.webp",
+      "https://www.startech.com.bd/image/cache/catalog/keyboard/logitech/g813/g813-04-500x500.webp",
+      "https://www.startech.com.bd/image/cache/catalog/keyboard/logitech/g813/g813-05-500x500.webp"
+    ],
+    "product_name": "Gaming Mechanical Keyboard",
+    "product_description": "RGB backlit mechanical keyboard with fast response time, ideal for gamers.",
+    "product_oldPrice": 120.0,
+    "product_newPrice": 85.0,
+    "discount_percentage": 29,
+    "sold": 650
+  },
+  {
+    "id": 5,
+    "product_images": [
+      "https://adminapi.applegadgetsbd.com/storage/media/large/Maxco-MW11-Geometry-Series-3-in-1-Magsafe-Wireless-Charger-3-6253.jpg",
+      "https://adminapi.applegadgetsbd.com/storage/media/large/Maxco-MW11-Geometry-Series-3-in-1-Magsafe-Wireless-Charger-2-7250.jpg",
+      "https://adminapi.applegadgetsbd.com/storage/media/large/Maxco-MW11-Geometry-Series-3-in-1-Magsafe-Wireless-Charger-5061.jpg",
+      "https://adminapi.applegadgetsbd.com/storage/media/large/Maxco-MW11-Geometry-Series-3-in-1-Magsafe-Wireless-Charger-3-6253.jpg"
+    ],
+    "product_name": "Wireless Charging Dock",
+    "product_description": "Fast wireless charging station compatible with all Qi-enabled devices.",
+    "product_oldPrice": 50.0,
+    "product_newPrice": 34.99,
+    "discount_percentage": 30,
+    "sold": 1100
+  },
+  {
+    "id": 6,
+    "product_images": [
+      "https://99grid.com/cdn/shop/products/10-0000862_1800x1800.jpg?v=1722596816",
+      "https://99grid.com/cdn/shop/files/Steelcase_Leap-1_1800x1800.jpg?v=1722596818",
+      "https://99grid.com/cdn/shop/products/Leap_Black_Headrest_MedleyPepperBlack_Front_2000x_6c5956de-ee36-4152-8da4-54e5c4676140_1800x1800.webp?v=1722596810",
+      "https://99grid.com/cdn/shop/files/image_2023-07-05_005405872_1800x1800.png?v=1722596821"
+    ],
+    "product_name": "Ergonomic Office Chair",
+    "product_description": "Comfortable and adjustable office chair with lumbar support.",
+    "product_oldPrice": 200.0,
+    "product_newPrice": 149.99,
+    "discount_percentage": 25,
+    "sold": 400
+  },
+  {
+    "id": 7,
+    "product_images": [
+      "https://www.wacaco.com/cdn/shop/products/Cuppamoka-PNG-002_7ce6b01c-d559-4a00-a892-579dd53fc83a.png?v=1677741508&width=600",
+      "https://www.wacaco.com/cdn/shop/products/Cuppamoka-PNG-008.png?v=1697092970&width=1946",
+      "https://www.wacaco.com/cdn/shop/products/Cuppamoka-PNG-008.png?v=1697092970&width=1946",
+      "https://www.wacaco.com/cdn/shop/products/Cuppamoka-PNG-002_7ce6b01c-d559-4a00-a892-579dd53fc83a.png?v=1677741508&width=600"
+    ],
+    "product_name": "Portable Espresso Machine",
+    "product_description": "Compact and easy-to-use espresso machine for coffee lovers on the go.",
+    "product_oldPrice": 90.0,
+    "product_newPrice": 65.0,
+    "discount_percentage": 28,
+    "sold": 700
+  },
+  {
+    "id": 8,
+    "product_images": [
+      "https://i0.wp.com/gadgetoo.com.bd/wp-content/uploads/2025/03/xiaomi-philips-smart-led-bulb-e27-with-app-remote-control-7.jpg?fit=800%2C800&ssl=1",
+      "https://i0.wp.com/gadgetoo.com.bd/wp-content/uploads/2025/03/xiaomi-philips-smart-led-bulb-e27-with-app-remote-control-8.jpg?fit=800%2C800&ssl=1",
+      "https://i0.wp.com/gadgetoo.com.bd/wp-content/uploads/2025/03/xiaomi-philips-smart-led-bulb-e27-with-app-remote-control-6.jpg?fit=800%2C800&ssl=1",
+      "https://i0.wp.com/gadgetoo.com.bd/wp-content/uploads/2025/03/xiaomi-philips-smart-led-bulb-e27-with-app-remote-control-9.jpg?fit=800%2C800&ssl=1"
+    ],
+    "product_name": "Smart LED Light Bulbs",
+    "product_description": "Color-changing LED bulbs with smart app control and voice assistant compatibility.",
+    "product_oldPrice": 60.0,
+    "product_newPrice": 39.99,
+    "discount_percentage": 33,
+    "sold": 1300
+  },
+  {
+    "id": 9,
+    "product_images": [
+      "https://www.startech.com.bd/image/cache/catalog/earbuds/realme/buds-air-5-pro/buds-air-5-pro-black-01-500x500.webp",
+      "https://www.startech.com.bd/image/cache/catalog/earbuds/realme/buds-air-5-pro/buds-air-5-pro-black-02-500x500.webp",
+      "https://www.startech.com.bd/image/cache/catalog/earbuds/realme/buds-air-5-pro/buds-air-5-pro-black-03-500x500.webp",
+      "https://www.startech.com.bd/image/cache/catalog/earbuds/realme/buds-air-5-pro/buds-air-5-pro-black-01-500x500.webp"
+    ],
+    "product_name": "Noise-Canceling Earbuds",
+    "product_description": "True wireless earbuds with active noise cancellation and long battery life.",
+    "product_oldPrice": 130.0,
+    "product_newPrice": 95.0,
+    "discount_percentage": 27,
+    "sold": 900
+  }
+]
