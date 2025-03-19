@@ -9,6 +9,10 @@ export default {
       colors: {
         primary: "#49493F",
         secondary: "#d25e19"
+      },
+      fontFamily: {
+        bebas: ['Bebas Neue', 'sans-serif'],
+        poppins: ['Poppins', 'sans-serif'],
       }
     },
   },

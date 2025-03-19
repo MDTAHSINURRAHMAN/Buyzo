@@ -28,34 +28,34 @@ export default function AllProducts() {
                 alt={product.product_name}
                 className="w-full h-full object-cover hover:scale-110 transition-transform duration-300"
               />
-              {product.discount_percentage && (
+              {/* {product.discount_percentage && (
                 <div className="absolute top-2 right-2 bg-primary text-white px-3 py-1 rounded-full text-sm font-semibold">
                   {product.discount_percentage}% OFF
                 </div>
-              )}
+              )} */}
             </figure>
 
             <div className="card-body p-4">
-              <h2 className="card-title text-3xl font-bold tracking-widest text-gray-800">
+              <h2 className="card-title text-3xl font-bebas font-light tracking-wide text-gray-800">
                 {product.product_name}
               </h2>
-              <p className="text-gray-600 tracking-wide text-lg line-clamp-2">
+              <p className="text-gray-600 font-poppins text-sm">
                 {product.product_description}
               </p>
 
               <div className="flex items-center justify-between mt-3">
                 <div className="flex items-center gap-3">
-                  <span className="text-4xl font-bold text-secondary">
+                  <span className="text-4xl font-bold font-bebas text-secondary">
                     ${product.product_newPrice}
                   </span>
                   {product.product_oldPrice && (
-                    <span className="text-gray-400 line-through text-2xl">
+                    <span className="text-gray-400 font-bebas line-through text-2xl">
                       ${product.product_oldPrice}
                     </span>
                   )}
                 </div>
                 <div>
-                  <span className="text-sm text-gray-500 flex items-center gap-1">
+                  <span className="text-sm text-gray-500 font-poppins flex items-center gap-1">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       className="h-4 w-4"
@@ -78,7 +78,7 @@ export default function AllProducts() {
               <div className="flex items-center justify-between mt-4">
                 <button
                   onClick={() => navigate(`/product/${product.id}`)}
-                  className="btn px-3 py-2 text-primary hover:scale-105 transition-transform duration-200 border-2 border-secondary outline-none rounded-lg tracking-wide"
+                  className="btn px-7 py-3 font-bebas tracking-[0.2em] bg-[#d25e19] text-sm text-[#f5f5f5] hover:scale-105 transition-transform duration-200  outline-none rounded-full hover:bg-transparent hover:text-secondary border-2 border-secondary"
                 >
                   View Details
                 </button>

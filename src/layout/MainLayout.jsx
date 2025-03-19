@@ -1,9 +1,9 @@
 import React from 'react'
-import AllProducts from '../pages/AllProducts'
+import { Outlet } from 'react-router-dom'
 export default function MainLayout() {
   return (
     <div>
-        <AllProducts />
+        <Outlet />
     </div>
   )
 }
