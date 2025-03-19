@@ -52,9 +52,9 @@ export default function ProductDetails() {
               <div
                 key={index}
                 onClick={() => setSelectedImage(index)}
-                className={`aspect-square rounded-lg overflow-hidden cursor-pointer transition-all duration-300 ${
+                className={`aspect-square rounded-md overflow-hidden cursor-pointer transition-all duration-300 ${
                   selectedImage === index
-                    ? "ring-2 ring-primary scale-95"
+                    ? "ring-1 ring-primary/50 scale-95"
                     : "hover:scale-95"
                 }`}
               >
@@ -126,7 +126,7 @@ export default function ProductDetails() {
             </div>
 
             <button
-              onClick={() => navigate("/checkout")}
+              onClick={() => navigate(`/checkout/${id}`)}
               className="btn btn-primary w-full bg-secondary text-white font-bebas tracking-wider text-xl py-3 hover:scale-[1.02] transition-all duration-300 shadow-lg hover:shadow-xl"
             >
               Buy Now

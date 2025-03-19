@@ -1,20 +1,25 @@
 import { useState, useEffect } from "react";
 // import { useLocation, useNavigate } from "react-router-dom";
 import axios from "axios";
+import { useParams } from "react-router-dom";
 
 export default function Checkout() {
   const [product, setProduct] = useState(null);
   const [quantity, setQuantity] = useState(1);
+  const [selectedImage, setSelectedImage] = useState(0);
   //   const navigate = useNavigate();
+
+  const { id } = useParams();
 
   useEffect(() => {
     const fetchProduct = async () => {
       const { data } = await axios.get("/products.json");
-      // For demo, getting first product. In real app, get from cart/query params
-      setProduct(data[0]);
+      const foundProduct = data.find((p) => p.id === parseInt(id));
+      setProduct(foundProduct);
+      setSelectedImage(0);
     };
     fetchProduct();
-  }, []);
+  }, [id]);
 
   if (!product) {
     return (
@@ -51,7 +56,7 @@ export default function Checkout() {
                   <td className="py-4">
                     <div className="flex items-center gap-4">
                       <img
-                        src={product.product_images[0]}
+                        src={product.product_images[selectedImage]}
                         alt={product.product_name}
                         className="w-20 h-20 object-cover rounded-lg"
                       />
@@ -73,7 +78,7 @@ export default function Checkout() {
                       <select
                         value={quantity}
                         onChange={(e) => setQuantity(parseInt(e.target.value))}
-                        className="select select-bordered w-24 font-poppins"
+                        className="select select-bordered w-12 font-poppins"
                       >
                         {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map((num) => (
                           <option key={num} value={num}>
